@@ -1,0 +1,12 @@
+<resources>
+    <!-- Title for the aplication -->
+    <string name="app_name">LanguageApp</string>
+    <!-- Category name for teh vocabulary words for numbers -->
+    <string name="category_numbers">Numbers</string>
+    <!-- Category name for teh vocabulary words for colors -->
+    <string name="category_colors">Colors</string>
+    <!-- Category name for teh vocabulary words for family members-->
+    <string name="category_family">Family Members</string>
+    <string name="phrases">Phrases</string>
+    <string name="animals">Animals</string>
+</resources>

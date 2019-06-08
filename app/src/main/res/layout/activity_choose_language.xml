@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseLanguageActivity"
+    android:weightSum="6"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/english_language"
+        style="@style/CategoryStyle"
+        android:text="English"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/united_kingdom_flag_round_xs"
+        android:drawableEnd="@drawable/united_kingdom_flag_round_xs"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/french_language"
+        style="@style/CategoryStyle"
+        android:text="Le Français"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/france_flag_round_xs"
+        android:drawableEnd="@drawable/france_flag_round_xs"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/germany_language"
+        style="@style/CategoryStyle"
+        android:text="Deutsch"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/germany_flag_round_xs"
+        android:drawableEnd="@drawable/germany_flag_round_xs"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/spain_language"
+        style="@style/CategoryStyle"
+        android:text="Español"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/spain_flag_round_xs"
+        android:drawableEnd="@drawable/spain_flag_round_xs"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/italy_language"
+        style="@style/CategoryStyle"
+        android:text="Italiano"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/italy_flag_round_xs"
+        android:drawableEnd="@drawable/italy_flag_round_xs"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/russia_language"
+        style="@style/CategoryStyle"
+        android:text="Русский"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/russia_flag_round_xs"
+        android:drawableEnd="@drawable/russia_flag_round_xs"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>

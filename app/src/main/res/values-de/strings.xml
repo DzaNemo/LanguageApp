@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LanguageApp</string>
+    <string name="category_colors">Farben</string>
+    <string name="category_family">Die Familie</string>
+    <string name="category_numbers">Zahlen</string>
+    <string name="phrases">Die phrase</string>
+    <string name="animals">Animals</string>
+</resources>

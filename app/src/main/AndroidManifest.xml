@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="link.languageapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/language_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/language_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Russia.AnimalsRusActivity"></activity>
+        <activity android:name=".Spain.AnimalesActivity" />
+        <activity android:name=".Italy.AnimaliActivity" />
+        <activity android:name=".Germany.TiereActivity" />
+        <activity android:name=".France.LesAnimauxActivity" />
+        <activity android:name=".English.AnimalsActivity" />
+        <activity android:name=".English.PhrasesActivity" />
+        <activity android:name=".English.ColorsActivity" />
+        <activity android:name=".English.FamilyActivity" />
+        <activity android:name=".English.NumbersActivity" />
+        <activity android:name=".English.EnglishActivity" />
+        <activity android:name=".Italy.FrasiActivity" />
+        <activity android:name=".Italy.ColoreActivity" />
+        <activity android:name=".Italy.FamigliaActivity" />
+        <activity android:name=".Italy.NumeriActivity" />
+        <activity android:name=".Russia.PhrasesRusActivity" />
+        <activity android:name=".Russia.ColorsRusActivity" />
+        <activity android:name=".Russia.FamilysRusActivity" />
+        <activity android:name=".Russia.NumbersRusActivity" />
+        <activity android:name=".Russia.RussianActivity" />
+        <activity android:name=".Italy.ItalianActivity" />
+        <activity android:name=".Spain.FrasesActivity" />
+        <activity android:name=".Spain.ColoresActivity" />
+        <activity android:name=".Spain.FamiliaActivity" />
+        <activity android:name=".Spain.NumerosActivity" />
+        <activity android:name=".Spain.SpanishActivity" />
+        <activity android:name=".Germany.DiePhraseActivity" />
+        <activity android:name=".Germany.FarbenActivity" />
+        <activity android:name=".Germany.DieFamilieActivity" />
+        <activity android:name=".Germany.ZahlenActivity" />
+        <activity android:name=".Germany.GermanyActivity" />
+        <activity android:name=".France.FrenchActiivity" />
+        <activity android:name=".France.DesPhrasesActivity" />
+        <activity android:name=".France.LesCouleursActivity" />
+        <activity android:name=".France.LaFamilleActivity" />
+        <activity android:name=".France.DesChiffresActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ChooseLanguageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
